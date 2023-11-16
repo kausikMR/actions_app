@@ -1,0 +1,17 @@
+name: Deploy Actions App
+
+on: 
+  push:
+    branchs:
+      - main
+    
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Deploying
+        run: echo "Deploying App"
+      - name: Testing App
+        run: echo "Testing App"
+
