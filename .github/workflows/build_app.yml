@@ -10,6 +10,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Testing job
-        run: echo "working fine"
+      - name: First job
+        run: echo "first job"
+      - name: Second job
+        run: echo "second job"
 
