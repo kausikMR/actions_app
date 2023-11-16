@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Testing job
-          run: echo "working fine"
+        run: echo "working fine"
 
