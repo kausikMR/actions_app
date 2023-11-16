@@ -1,5 +1,5 @@
 name: actions_app
-description: A new Flutter project.
+description: Actions App for Github Actions testing.
 publish_to: 'none'
 version: 0.1.0+5
 
