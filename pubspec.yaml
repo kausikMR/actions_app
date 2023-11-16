@@ -1,5 +1,5 @@
 name: actions_app
-description: Actions App for Github Actions testing.
+description: Actions App for Github Actions testing and for fun.
 publish_to: 'none'
 version: 0.1.0+5
 
