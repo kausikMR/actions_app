@@ -1,0 +1,15 @@
+name: Build Actions App 🚀
+
+on: 
+  push:
+    tags:
+      - v[0-9].[0-9].[0-9]+[0-9]
+    
+jobs:
+  actions-app-build-job:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Testing job
+          run: echo "working fine"
+
