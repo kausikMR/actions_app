@@ -2,8 +2,7 @@ name: Build Actions App 🚀
 
 on: 
   push:
-    branches:
-      - 'dev'
+    branch: main
     
 jobs:
   actions-app-build-job:
