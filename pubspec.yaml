@@ -1,7 +1,7 @@
 name: actions_app
 description: Actions App for Github Actions testing and for fun.
 publish_to: 'none'
-version: 0.1.0+7
+version: 0.1.0+8
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
